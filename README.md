@@ -1,5 +1,5 @@
 # 2021 IDRIS GPU hackathon
-[![slides-badge](https://cdn.rawgit.com/kentcdodds/custom-badges/VERSION/badges/slides.svg)](https://slides.com/eiffl/idris-hackathon)
+[![slides-badge](https://rawgit.com/kentcdodds/custom-badges/master/badges/slides.svg)](https://slides.com/eiffl/idris-hackathon)
 
 Repository for hosting material and discussions for the 2021 IDRIS GPU hackathon
 
