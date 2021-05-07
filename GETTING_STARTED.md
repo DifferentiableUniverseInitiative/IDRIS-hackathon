@@ -101,3 +101,11 @@ export NCCL_DEBUG_FILE=nccl_log
 export NCCL_DEBUG_SUBSYS=ALL
 ```
 This will export a `nccl_log` file with traces of communications
+
+### Running 3D FFT benchmark
+
+**TODO**: add description here
+
+### Running FlowPM simulation
+
+**TODO**: add description here
