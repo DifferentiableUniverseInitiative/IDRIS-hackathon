@@ -87,18 +87,26 @@ You should be all set.
 After following the steps of the previous section, you should be able to run the
 demos presented here, which show you a few minimal examples.
 
+### Starting an interactive job with multiple GPUs
+
+For debugging purposes, it may be very convenient to have multi-gpu interactive environment, you can
+start one with:
+```bash
+$ salloc --nodes=1 --ntasks-per-node=4 --cpus-per-task=10 --gres=gpu:4 --hint=nomultithread -A ftb@gpu
+```
+But please don't let them run for hours idling, they burn GPU time.
+
 
 ### Running a minimal Horovod example
 
 The [scripts/horovod_demo.py](scripts/horovod_demo.py) script contains a simple
 example of using the  all2all collective in Horovod from TensorFlow. To execute
-it on 2 GPUs, you can use the following:
+it on 4 GPUs in the environment declared above, you can use the following:
 ```bash
-horovodrun -np 2  --timeline-filename my_timeline.json --timeline-mark-cycles python test_hvd.py
+$ srun /gpfslocalsup/pub/idrtools/bind_gpu.sh python horovod_demo.py 
 ```
-**TODO**: This is to run on a local machine, need to update this with an example
-of a job file for JZ.
 
+**TODO**: Figure out how to get timelines with srun. 
 This job will create a timeline file which you can inspect to see a little bit
 the trace of the horovod communications. To see how to read these files, checkout
 the horovod doc [here](https://horovod.readthedocs.io/en/stable/timeline_include.html).
