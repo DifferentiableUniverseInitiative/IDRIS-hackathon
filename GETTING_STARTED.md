@@ -8,10 +8,12 @@ and how to run basic demos and scripts
 For this project we will use the following modules and TensorFlow environment
 on the Jean-Zay machine:
 ```bash
-module load nccl/2.8.3-1-cuda
-module load cudnn/8.0.4.30-cuda-10.2
-module load gcc/8.3.1
-module load openmpi/4.0.2-cuda
+module load cmake
+module load cuda/10.2 
+module load nccl/2.8.3-1-cuda 
+module load cudnn/8.0.4.30-cuda-10.2 
+module load gcc/8.3.1 
+module load openmpi/4.0.2-cuda 
 
 eval "$(/gpfslocalsup/pub/anaconda-py3/2020.02/bin/conda shell.bash hook)"
 
@@ -34,12 +36,20 @@ git clone --recursive https://github.com/DifferentiableUniverseInitiative/horovo
 cd horovod
 git checkout multiple_communicators
 export HOROVOD_WITHOUT_MXNET=1 HOROVOD_WITH_MPI=1 HOROVOD_GPU_OPERATIONS=NCCL HOROVOD_WITHOUT_PYTORCH=1
+pip install --user .
+```
+
+This procedure is if you want to install without modifying the code, if you want to install it in "develop"
+mode, replace the last line by:
+```bash
 pip install --user -e .
 ```
-(TODO: This might fail because the compile script of horovod actually doesnt like it
+This will fail, because the compile script of horovod actually doesnt like it
   if we dont compile mxnet and pytorch support... right now I have to manually create
   empty files `build/lib.linux-x86_64-XXXX/horovod/mxnet/mpi_lib.cpython-38-x86_64-linux-gnu.so`,
-  `build/lib.linux-x86_64-XXXX/horovod/torch/mpi_lib_v2.cpython-38-x86_64-linux-gnu.so` which is a bit annoying....)
+  `build/lib.linux-x86_64-XXXX/horovod/torch/mpi_lib_v2.cpython-38-x86_64-linux-gnu.so` which is a bit annoying,
+  and also create a symlink of the metadata.json file found under `build/lib.linux-x86_64-XXXX/horovod`
+
 
 The compilation itself should take a few minutes, and then horovod should be
 accessible in your conda environment.
