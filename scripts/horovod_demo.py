@@ -26,7 +26,7 @@ os.environ["CUDA_VISIBLE_DEVICES"]="%d"%(r+1)
 
 
 # Let's try to reduce some tensors
-a = (r+1)*tf.ones(10)
+a = (r+1)*tf.ones(16)
 
 print("Output of reduction", hvd.alltoall(a, communicator_id=0))
 
