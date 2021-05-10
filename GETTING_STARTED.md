@@ -76,6 +76,7 @@ Finally, you can install FlowPM with the following:
 ```bash
 git clone https://github.com/DifferentiableUniverseInitiative/flowpm.git
 cd flowpm
+git checkout mesh_update
 pip install --user -e .
 ```
 
