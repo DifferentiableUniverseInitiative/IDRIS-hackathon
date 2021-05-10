@@ -20,7 +20,7 @@ tf.flags.DEFINE_string("mesh_implementation", "horovod", "Type of mesh implement
                        "either 'horovod' or 'device_placement'")
 
 tf.flags.DEFINE_integer("cube_size", 512, "Size of the 3D volume.")
-tf.flags.DEFINE_integer("batch_size", 64, "Mini-batch size for the training. Note that this"
+tf.flags.DEFINE_integer("batch_size", 8, "Mini-batch size for the training. Note that this"
                         "is the global batch size and not the per-shard batch.")
 tf.flags.DEFINE_string("mesh_shape", "b1:16", "mesh shape")
 tf.flags.DEFINE_string("layout", "nx:b1,tny:b1", "layout rules")
@@ -57,7 +57,7 @@ def benchmark_model(mesh):
     fft_field = mpm.fft3d(field, [tx_dim, ty_dim, tz_dim])
     # Inverse FFT
     field = mpm.ifft3d(fft_field * 1, [x_dim, y_dim, z_dim])
-    err += mtf.reduce_max(mtf.abs(mtf.cast(field, tf.float32) - input_field))
+    err += mtf.reduce_sum(mtf.abs(mtf.cast(field, tf.float32) - input_field))
 
   field = mtf.cast(field, tf.float32)
   # Compute errors
@@ -115,7 +115,7 @@ def main(_):
   # Retrieve output of computation
   result = lowering.export_to_tf_tensor(fft_err)
 
-  with tf.Session(server.target) as sess:
+  with tf.Session(server.target if FLAGS.mesh_implementation == "device_placement" else None) as sess:
     start = time.time()
     err = sess.run(result)
     end = time.time()

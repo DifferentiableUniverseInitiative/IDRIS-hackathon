@@ -121,7 +121,18 @@ This will export a `nccl_log` file with traces of communications
 
 ### Running 3D FFT benchmark
 
-**TODO**: add description here
+The [scripts/fft_benchmark.py](scripts/fft_benchmark.py) script contains a simple code that will run a series of back and forth 3D FFTs. The associate slurm script 
+will run this code under nvprof to collect a trace of the execution that we can then
+analyse.
+
+To launch the script:
+```bash
+$ sbatch fft_benchmark.job
+```
+This will run a distributed FFT of size 512^3 over 8 GPUs on 2 nodes. 
+
+To load the trace, downloaded to your local computer, and open it in nvvp.
+
 
 ### Running FlowPM simulation
 

@@ -24,4 +24,5 @@ module load tensorflow-gpu/py3/2.4.1+nccl-2.8.3-1
 set -x
 
 # execution du code avec binding via bind_gpu.sh : 1 GPU pour 1 tache MPI.
-srun /gpfslocalsup/pub/idrtools/bind_gpu.sh python -u fft_benchmark.py --mesh_shape="b1:8" --layout="nx:b1,tny:b1"
+srun nvprof --profile-child-processes -f -o result-%p.nvvp /gpfslocalsup/pub/idrtools/bind_gpu.sh python -u fft_benchmark.py --mesh_shape="b1:2,b2:4" --layout="nx:b1,tny:b1,ny:b2,tnz:b2"
+#srun /gpfslocalsup/pub/idrtools/bind_gpu.sh  nsys profile --stats=true -t nvtx,cuda,mpi -o result-%q{SLURM_TASK_PID} python -u fft_benchmark.py --mesh_shape="b1:2,b2:4" --layout="nx:b1,tny:b1,ny:b2,tnz:b2"
