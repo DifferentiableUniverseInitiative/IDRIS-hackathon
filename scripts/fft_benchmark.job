@@ -11,7 +11,8 @@
 #SBATCH --time=00:10:00              # temps d'execution maximum demande (HH:MM:SS)
 #SBATCH --output=fft_benchmark%j.out # nom du fichier de sortie
 #SBATCH --error=fft_benchmark%j.out  # nom du fichier d'erreur (ici commun avec la sortie)
- 
+#SBATCH -A ftb@gpu                   # specify the project
+
 # nettoyage des modules charges en interactif et herites par defaut
 module purge
  
