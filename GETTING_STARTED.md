@@ -40,7 +40,7 @@ This will fail, because the compile script of horovod actually doesnt like it if
 To fix the issue, do the following:
 ```bash
 mkdir -p build/lib.linux-x86_64-3.7/horovod/mxnet
-touch build/lib.linux-x86_64-3.7/horovod/mxnet/mpi_lib.cpython-38-x86_64-linux-gnu.so
+touch build/lib.linux-x86_64-3.7/horovod/mxnet/mpi_lib.cpython-37m-x86_64-linux-gnu.so
 mkdir -p build/lib.linux-x86_64-3.7/horovod/torch
 touch build/lib.linux-x86_64-3.7/horovod/torch/mpi_lib_v2.cpython-37m-x86_64-linux-gnu.so
 cd horovod
