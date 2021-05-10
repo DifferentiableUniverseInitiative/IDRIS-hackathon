@@ -9,15 +9,7 @@ For this project we will use the following modules and TensorFlow environment
 on the Jean-Zay machine:
 ```bash
 module load cmake
-module load cuda/10.2 
-module load nccl/2.8.3-1-cuda 
-module load cudnn/8.0.4.30-cuda-10.2 
-module load gcc/8.3.1 
-module load openmpi/4.0.2-cuda 
-
-eval "$(/gpfslocalsup/pub/anaconda-py3/2020.02/bin/conda shell.bash hook)"
-
-conda activate tensorflow-gpu-2.4.1+nccl-2.8.3-1
+module load tensorflow-gpu/py3/2.4.1+nccl-2.8.3-1
 ```
 
 Executing these lines should load the correct environment in which we will
