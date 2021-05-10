@@ -36,12 +36,19 @@ mode, replace the last line by:
 ```bash
 pip install --user -e .
 ```
-This will fail, because the compile script of horovod actually doesnt like it
-  if we dont compile mxnet and pytorch support... right now I have to manually create
-  empty files `build/lib.linux-x86_64-XXXX/horovod/mxnet/mpi_lib.cpython-38-x86_64-linux-gnu.so`,
-  `build/lib.linux-x86_64-XXXX/horovod/torch/mpi_lib_v2.cpython-38-x86_64-linux-gnu.so` which is a bit annoying,
-  and also create a symlink of the metadata.json file found under `build/lib.linux-x86_64-XXXX/horovod`
-
+This will fail, because the compile script of horovod actually doesnt like it if we dont compile mxnet and pytorch support...
+To fix the issue, do the following:
+```bash
+mkdir -p build/lib.linux-x86_64-3.7/horovod/mxnet
+touch build/lib.linux-x86_64-3.7/horovod/mxnet/mpi_lib.cpython-38-x86_64-linux-gnu.so
+mkdir -p build/lib.linux-x86_64-3.7/horovod/torch
+touch build/lib.linux-x86_64-3.7/horovod/torch/mpi_lib_v2.cpython-37m-x86_64-linux-gnu.so
+cd horovod
+ln -s ../build/lib.linux-x86_64-3.7/horovod/metadata.json .
+cd ..
+```
+you should be back in the root horovod folder at that point, and you can run again `pip install --user -e .` this time it should be faster
+and not complain at the end.
 
 The compilation itself should take a few minutes, and then horovod should be
 accessible in your conda environment.
