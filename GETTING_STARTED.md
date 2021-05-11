@@ -153,7 +153,7 @@ GPU 1: Tesla V100-SXM2-16GB (UUID: GPU-69aefc2f-736e-00f1-a539-c2eb78a6ff77)
          Link 4: Data Rx: 6027408899 KiB
          Link 5: Data Tx: 5470567305 KiB
          Link 5: Data Rx: 5342288442 KiB
-etc. (each node has 6 links with its neighbours)
+etc. (each node has 6 links with its 3 neighbours in this example)
 ```
 
 ### Running 3D FFT benchmark
