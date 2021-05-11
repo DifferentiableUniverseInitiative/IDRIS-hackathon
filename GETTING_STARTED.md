@@ -120,6 +120,42 @@ export NCCL_DEBUG_SUBSYS=ALL
 ```
 This will export a `nccl_log` file with traces of communications
 
+You can look at the traffic between the GPUs on a single node by running the following command several times on that node:
+```
+nvidia-smi nvlink -gt d
+```
+
+That should display:
+```
+GPU 0: Tesla V100-SXM2-16GB (UUID: GPU-3bd00c3b-0777-ff8a-af75-76a125f9076f)
+         Link 0: Data Tx: 5767281335 KiB
+         Link 0: Data Rx: 5236186453 KiB
+         Link 1: Data Tx: 5767301856 KiB
+         Link 1: Data Rx: 5236363958 KiB
+         Link 2: Data Tx: 5810435158 KiB
+         Link 2: Data Rx: 5268354895 KiB
+         Link 3: Data Tx: 6027545425 KiB
+         Link 3: Data Rx: 5339549892 KiB
+         Link 4: Data Tx: 5810695002 KiB
+         Link 4: Data Rx: 5268581753 KiB
+         Link 5: Data Tx: 6027408899 KiB
+         Link 5: Data Rx: 5343167491 KiB
+GPU 1: Tesla V100-SXM2-16GB (UUID: GPU-69aefc2f-736e-00f1-a539-c2eb78a6ff77)
+         Link 0: Data Tx: 5339549892 KiB
+         Link 0: Data Rx: 6027545425 KiB
+         Link 1: Data Tx: 5470084557 KiB
+         Link 1: Data Rx: 5345951114 KiB
+         Link 2: Data Tx: 5313009161 KiB
+         Link 2: Data Rx: 5309225642 KiB
+         Link 3: Data Tx: 5313023346 KiB
+         Link 3: Data Rx: 5309069286 KiB
+         Link 4: Data Tx: 5343167491 KiB
+         Link 4: Data Rx: 6027408899 KiB
+         Link 5: Data Tx: 5470567305 KiB
+         Link 5: Data Rx: 5342288442 KiB
+etc. (each node has 6 links with its neighbours)
+```
+
 ### Running 3D FFT benchmark
 
 The [scripts/fft_benchmark.py](scripts/fft_benchmark.py) script contains a simple code that will run a series of back and forth 3D FFTs. The associate slurm script 
