@@ -173,4 +173,12 @@ To load the trace, downloaded to your local computer, and open it in nvvp.
 
 ### Running FlowPM simulation
 
-**TODO**: add description here
+The FlowPM repo contains an example script for running a full N-body simulation in mesh-tensorflow.
+You can find it [here](https://github.com/DifferentiableUniverseInitiative/flowpm/tree/mesh_update/scripts). To run the following script
+you need to be in the `flowpm/scripts` directory:
+```bash
+sbatch mesh_nbody_benchmark_idris.sh
+```
+by default, this should run a 512^3 simulation distributed on 4 nodes, and output a png file showing the initial
+and final conditions of the simulation.
+
