@@ -1,0 +1,8 @@
+Loading tensorflow-gpu/py3/2.4.1+nccl-2.8.3-1
+  Loading requirement: gcc/8.3.1 cuda/10.2 nccl/2.8.3-1-cuda
+    cudnn/8.0.4.30-cuda-10.2 openmpi/4.0.2-cuda
++ srun --unbuffered --mpi=pmi2 -o fft_%t.log /gpfslocalsup/pub/idrtools/bind_gpu.sh nsys profile --stats=true -t nvtx,cuda,mpi -o 'result-%q{SLURM_TASK_PID}' python -u fft_benchmark.py --mesh_shape=b1:2,b2:4 --layout=nx:b1,tny:b1,ny:b2,tnz:b2
+srun: error: r10i1n2: tasks 0-3: Exited with exit code 134
+srun: Terminating job step 1900980.0
+srun: error: r10i1n3: tasks 4-7: Terminated
+srun: Force Terminated job step 1900980.0

@@ -1,0 +1,441 @@
+Loading tensorflow-gpu/py3/2.4.1+nccl-2.8.3-1
+  Loading requirement: gcc/8.3.1 cuda/10.2 nccl/2.8.3-1-cuda
+    cudnn/8.0.4.30-cuda-10.2 openmpi/4.0.2-cuda
++ srun /gpfslocalsup/pub/idrtools/bind_gpu.sh python mesh_nbody_benchmark.py --nc=512 --batch_size=1 --nx=4 --ny=4 --hsize=32
+r11i1n4.28974psmi_cuda_initialize: Unable to find active CUDA context
+r11i1n1.57588psmi_cuda_initialize: Unable to find active CUDA context
+r11i1n2.2330psmi_cuda_initialize: Unable to find active CUDA context
+r11i1n3.58749psmi_cuda_initialize: Unable to find active CUDA context
+r11i1n4.28975psmi_cuda_initialize: Unable to find active CUDA context
+r11i1n1.57585psmi_cuda_initialize: Unable to find active CUDA context
+r11i1n2.2331psmi_cuda_initialize: Unable to find active CUDA context
+r11i1n3.58748psmi_cuda_initialize: Unable to find active CUDA context
+r11i1n4.28973psmi_cuda_initialize: Unable to find active CUDA context
+r11i1n1.57587psmi_cuda_initialize: Unable to find active CUDA context
+r11i1n2.2329psmi_cuda_initialize: Unable to find active CUDA context
+r11i1n3.58750psmi_cuda_initialize: Unable to find active CUDA context
+r11i1n4.28972psmi_cuda_initialize: Unable to find active CUDA context
+r11i1n1.57586psmi_cuda_initialize: Unable to find active CUDA context
+r11i1n2.2328psmi_cuda_initialize: Unable to find active CUDA context
+r11i1n3.58746psmi_cuda_initialize: Unable to find active CUDA context
+2021-05-26 13:52:43.357645: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.2
+2021-05-26 13:52:43.357635: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.2
+2021-05-26 13:52:43.357642: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.2
+2021-05-26 13:52:43.357648: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.2
+2021-05-26 13:52:43.358509: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.2
+2021-05-26 13:52:43.358511: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.2
+2021-05-26 13:52:43.358502: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.2
+2021-05-26 13:52:43.358502: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.2
+2021-05-26 13:52:43.358752: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.2
+2021-05-26 13:52:43.358755: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.2
+2021-05-26 13:52:43.358756: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.2
+2021-05-26 13:52:43.358753: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.2
+2021-05-26 13:52:43.360899: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.2
+2021-05-26 13:52:43.360898: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.2
+2021-05-26 13:52:43.360895: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.2
+2021-05-26 13:52:43.360894: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.2
+WARNING:tensorflow:From /gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/tensorflow/python/compat/v2_compat.py:96: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+WARNING:tensorflow:From /gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/tensorflow/python/compat/v2_compat.py:96: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+WARNING:tensorflow:From /gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/tensorflow/python/compat/v2_compat.py:96: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+WARNING:tensorflow:From /gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/tensorflow/python/compat/v2_compat.py:96: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+WARNING:tensorflow:From /gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/tensorflow/python/compat/v2_compat.py:96: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+WARNING:tensorflow:From /gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/tensorflow/python/compat/v2_compat.py:96: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+WARNING:tensorflow:From /gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/tensorflow/python/compat/v2_compat.py:96: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+WARNING:tensorflow:From /gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/tensorflow/python/compat/v2_compat.py:96: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+WARNING:tensorflow:From /gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/tensorflow/python/compat/v2_compat.py:96: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+WARNING:tensorflow:From /gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/tensorflow/python/compat/v2_compat.py:96: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+WARNING:tensorflow:From /gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/tensorflow/python/compat/v2_compat.py:96: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+WARNING:tensorflow:From /gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/tensorflow/python/compat/v2_compat.py:96: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+WARNING:tensorflow:From /gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/tensorflow/python/compat/v2_compat.py:96: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+WARNING:tensorflow:From /gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/tensorflow/python/compat/v2_compat.py:96: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+WARNING:tensorflow:From /gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/tensorflow/python/compat/v2_compat.py:96: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+WARNING:tensorflow:From /gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/tensorflow/python/compat/v2_compat.py:96: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+INFO:tensorflow:HvdSimdMeshImpl init: Shape[row=4, col=4] LayoutRules{('ny_lr', 'col'), ('nx', 'row'), ('nx_block', 'row'), ('ty_lr', 'row'), ('tz', 'col'), ('tz_lr', 'col'), ('ny_block', 'col'), ('nx_lr', 'row'), ('ny', 'col'), ('ty', 'row')}
+I0526 13:53:05.897964 22927502722880 hvd_simd_mesh_impl.py:49] HvdSimdMeshImpl init: Shape[row=4, col=4] LayoutRules{('ny_lr', 'col'), ('nx', 'row'), ('nx_block', 'row'), ('ty_lr', 'row'), ('tz', 'col'), ('tz_lr', 'col'), ('ny_block', 'col'), ('nx_lr', 'row'), ('ny', 'col'), ('ty', 'row')}
+INFO:tensorflow:HvdSimdMeshImpl init: Shape[row=4, col=4] LayoutRules{('nx', 'row'), ('ny', 'col'), ('nx_lr', 'row'), ('ny_block', 'col'), ('ty_lr', 'row'), ('tz', 'col'), ('ny_lr', 'col'), ('nx_block', 'row'), ('tz_lr', 'col'), ('ty', 'row')}
+I0526 13:53:05.898027 23427044763456 hvd_simd_mesh_impl.py:49] HvdSimdMeshImpl init: Shape[row=4, col=4] LayoutRules{('nx', 'row'), ('ny', 'col'), ('nx_lr', 'row'), ('ny_block', 'col'), ('ty_lr', 'row'), ('tz', 'col'), ('ny_lr', 'col'), ('nx_block', 'row'), ('tz_lr', 'col'), ('ty', 'row')}
+INFO:tensorflow:HvdSimdMeshImpl init: Shape[row=4, col=4] LayoutRules{('nx_block', 'row'), ('nx', 'row'), ('tz', 'col'), ('ty_lr', 'row'), ('ny_block', 'col'), ('ny_lr', 'col'), ('ny', 'col'), ('tz_lr', 'col'), ('ty', 'row'), ('nx_lr', 'row')}
+INFO:tensorflow:HvdSimdMeshImpl init: Shape[row=4, col=4] LayoutRules{('ty', 'row'), ('tz_lr', 'col'), ('ny_lr', 'col'), ('nx_lr', 'row'), ('ny', 'col'), ('nx', 'row'), ('tz', 'col'), ('nx_block', 'row'), ('ty_lr', 'row'), ('ny_block', 'col')}
+INFO:tensorflow:HvdSimdMeshImpl init: Shape[row=4, col=4] LayoutRules{('tz_lr', 'col'), ('ty', 'row'), ('nx_lr', 'row'), ('ny_lr', 'col'), ('ny_block', 'col'), ('ny', 'col'), ('nx', 'row'), ('nx_block', 'row'), ('ty_lr', 'row'), ('tz', 'col')}
+INFO:tensorflow:HvdSimdMeshImpl init: Shape[row=4, col=4] LayoutRules{('tz_lr', 'col'), ('ty_lr', 'row'), ('tz', 'col'), ('nx_block', 'row'), ('ny', 'col'), ('nx_lr', 'row'), ('nx', 'row'), ('ny_lr', 'col'), ('ty', 'row'), ('ny_block', 'col')}
+I0526 13:53:05.898193 23376762234688 hvd_simd_mesh_impl.py:49] HvdSimdMeshImpl init: Shape[row=4, col=4] LayoutRules{('tz_lr', 'col'), ('ty_lr', 'row'), ('tz', 'col'), ('nx_block', 'row'), ('ny', 'col'), ('nx_lr', 'row'), ('nx', 'row'), ('ny_lr', 'col'), ('ty', 'row'), ('ny_block', 'col')}
+I0526 13:53:05.898188 23212098848576 hvd_simd_mesh_impl.py:49] HvdSimdMeshImpl init: Shape[row=4, col=4] LayoutRules{('nx_block', 'row'), ('nx', 'row'), ('tz', 'col'), ('ty_lr', 'row'), ('ny_block', 'col'), ('ny_lr', 'col'), ('ny', 'col'), ('tz_lr', 'col'), ('ty', 'row'), ('nx_lr', 'row')}
+I0526 13:53:05.898185 23446457784128 hvd_simd_mesh_impl.py:49] HvdSimdMeshImpl init: Shape[row=4, col=4] LayoutRules{('ty', 'row'), ('tz_lr', 'col'), ('ny_lr', 'col'), ('nx_lr', 'row'), ('ny', 'col'), ('nx', 'row'), ('tz', 'col'), ('nx_block', 'row'), ('ty_lr', 'row'), ('ny_block', 'col')}
+I0526 13:53:05.898183 22957349447488 hvd_simd_mesh_impl.py:49] HvdSimdMeshImpl init: Shape[row=4, col=4] LayoutRules{('tz_lr', 'col'), ('ty', 'row'), ('nx_lr', 'row'), ('ny_lr', 'col'), ('ny_block', 'col'), ('ny', 'col'), ('nx', 'row'), ('nx_block', 'row'), ('ty_lr', 'row'), ('tz', 'col')}
+INFO:tensorflow:HvdSimdMeshImpl init: Shape[row=4, col=4] LayoutRules{('ny_block', 'col'), ('tz_lr', 'col'), ('ny', 'col'), ('ty', 'row'), ('tz', 'col'), ('ty_lr', 'row'), ('nx', 'row'), ('nx_lr', 'row'), ('nx_block', 'row'), ('ny_lr', 'col')}
+INFO:tensorflow:HvdSimdMeshImpl init: Shape[row=4, col=4] LayoutRules{('nx_lr', 'row'), ('nx_block', 'row'), ('ny', 'col'), ('tz_lr', 'col'), ('nx', 'row'), ('ny_lr', 'col'), ('ny_block', 'col'), ('ty_lr', 'row'), ('ty', 'row'), ('tz', 'col')}
+INFO:tensorflow:HvdSimdMeshImpl init: Shape[row=4, col=4] LayoutRules{('tz', 'col'), ('ty', 'row'), ('nx_block', 'row'), ('ny_lr', 'col'), ('ty_lr', 'row'), ('ny_block', 'col'), ('ny', 'col'), ('tz_lr', 'col'), ('nx_lr', 'row'), ('nx', 'row')}
+INFO:tensorflow:HvdSimdMeshImpl init: Shape[row=4, col=4] LayoutRules{('nx', 'row'), ('ny_block', 'col'), ('ty_lr', 'row'), ('nx_lr', 'row'), ('tz_lr', 'col'), ('nx_block', 'row'), ('tz', 'col'), ('ty', 'row'), ('ny_lr', 'col'), ('ny', 'col')}
+INFO:tensorflow:HvdSimdMeshImpl init: Shape[row=4, col=4] LayoutRules{('nx', 'row'), ('ny_block', 'col'), ('ny_lr', 'col'), ('nx_lr', 'row'), ('tz_lr', 'col'), ('ty', 'row'), ('ny', 'col'), ('ty_lr', 'row'), ('tz', 'col'), ('nx_block', 'row')}
+I0526 13:53:05.898508 22542633269056 hvd_simd_mesh_impl.py:49] HvdSimdMeshImpl init: Shape[row=4, col=4] LayoutRules{('nx', 'row'), ('ny_block', 'col'), ('ny_lr', 'col'), ('nx_lr', 'row'), ('tz_lr', 'col'), ('ty', 'row'), ('ny', 'col'), ('ty_lr', 'row'), ('tz', 'col'), ('nx_block', 'row')}
+I0526 13:53:05.898505 22838384244544 hvd_simd_mesh_impl.py:49] HvdSimdMeshImpl init: Shape[row=4, col=4] LayoutRules{('tz', 'col'), ('ty', 'row'), ('nx_block', 'row'), ('ny_lr', 'col'), ('ty_lr', 'row'), ('ny_block', 'col'), ('ny', 'col'), ('tz_lr', 'col'), ('nx_lr', 'row'), ('nx', 'row')}
+INFO:tensorflow:HvdSimdMeshImpl init: Shape[row=4, col=4] LayoutRules{('ny', 'col'), ('tz_lr', 'col'), ('tz', 'col'), ('ty_lr', 'row'), ('ty', 'row'), ('ny_lr', 'col'), ('nx_lr', 'row'), ('ny_block', 'col'), ('nx_block', 'row'), ('nx', 'row')}
+INFO:tensorflow:HvdSimdMeshImpl init: Shape[row=4, col=4] LayoutRules{('tz_lr', 'col'), ('ty_lr', 'row'), ('nx_block', 'row'), ('ty', 'row'), ('ny_block', 'col'), ('ny_lr', 'col'), ('nx_lr', 'row'), ('ny', 'col'), ('tz', 'col'), ('nx', 'row')}
+INFO:tensorflow:HvdSimdMeshImpl init: Shape[row=4, col=4] LayoutRules{('nx', 'row'), ('ty_lr', 'row'), ('nx_block', 'row'), ('ny_block', 'col'), ('nx_lr', 'row'), ('tz', 'col'), ('ty', 'row'), ('ny_lr', 'col'), ('tz_lr', 'col'), ('ny', 'col')}
+I0526 13:53:05.898488 23049496721216 hvd_simd_mesh_impl.py:49] HvdSimdMeshImpl init: Shape[row=4, col=4] LayoutRules{('ny_block', 'col'), ('tz_lr', 'col'), ('ny', 'col'), ('ty', 'row'), ('tz', 'col'), ('ty_lr', 'row'), ('nx', 'row'), ('nx_lr', 'row'), ('nx_block', 'row'), ('ny_lr', 'col')}
+I0526 13:53:05.898549 22387295770432 hvd_simd_mesh_impl.py:49] HvdSimdMeshImpl init: Shape[row=4, col=4] LayoutRules{('nx', 'row'), ('ty_lr', 'row'), ('nx_block', 'row'), ('ny_block', 'col'), ('nx_lr', 'row'), ('tz', 'col'), ('ty', 'row'), ('ny_lr', 'col'), ('tz_lr', 'col'), ('ny', 'col')}
+I0526 13:53:05.898571 22612120422208 hvd_simd_mesh_impl.py:49] HvdSimdMeshImpl init: Shape[row=4, col=4] LayoutRules{('tz_lr', 'col'), ('ty_lr', 'row'), ('nx_block', 'row'), ('ty', 'row'), ('ny_block', 'col'), ('ny_lr', 'col'), ('nx_lr', 'row'), ('ny', 'col'), ('tz', 'col'), ('nx', 'row')}
+I0526 13:53:05.898514 23023507031872 hvd_simd_mesh_impl.py:49] HvdSimdMeshImpl init: Shape[row=4, col=4] LayoutRules{('nx_lr', 'row'), ('nx_block', 'row'), ('ny', 'col'), ('tz_lr', 'col'), ('nx', 'row'), ('ny_lr', 'col'), ('ny_block', 'col'), ('ty_lr', 'row'), ('ty', 'row'), ('tz', 'col')}
+I0526 13:53:05.898516 22515100927808 hvd_simd_mesh_impl.py:49] HvdSimdMeshImpl init: Shape[row=4, col=4] LayoutRules{('nx', 'row'), ('ny_block', 'col'), ('ty_lr', 'row'), ('nx_lr', 'row'), ('tz_lr', 'col'), ('nx_block', 'row'), ('tz', 'col'), ('ty', 'row'), ('ny_lr', 'col'), ('ny', 'col')}
+I0526 13:53:05.898563 23193243727680 hvd_simd_mesh_impl.py:49] HvdSimdMeshImpl init: Shape[row=4, col=4] LayoutRules{('ny', 'col'), ('tz_lr', 'col'), ('tz', 'col'), ('ty_lr', 'row'), ('ty', 'row'), ('ny_lr', 'col'), ('nx_lr', 'row'), ('ny_block', 'col'), ('nx_block', 'row'), ('nx', 'row')}
+INFO:tensorflow:HvdSimdMeshImpl init: Shape[row=4, col=4] LayoutRules{('ny_block', 'col'), ('nx', 'row'), ('nx_block', 'row'), ('ty_lr', 'row'), ('tz_lr', 'col'), ('ny_lr', 'col'), ('ny', 'col'), ('ty', 'row'), ('tz', 'col'), ('nx_lr', 'row')}
+I0526 13:53:09.020438 23045216704320 hvd_simd_mesh_impl.py:49] HvdSimdMeshImpl init: Shape[row=4, col=4] LayoutRules{('ny_block', 'col'), ('nx', 'row'), ('nx_block', 'row'), ('ty_lr', 'row'), ('tz_lr', 'col'), ('ny_lr', 'col'), ('ny', 'col'), ('ty', 'row'), ('tz', 'col'), ('nx_lr', 'row')}
+INFO:tensorflow:HvdSimdMeshImpl init: Shape[row=4, col=4] LayoutRules{('nx_block', 'row'), ('ty', 'row'), ('nx', 'row'), ('ny_block', 'col'), ('tz_lr', 'col'), ('tz', 'col'), ('nx_lr', 'row'), ('ty_lr', 'row'), ('ny', 'col'), ('ny_lr', 'col')}
+I0526 13:53:09.032378 22914679236416 hvd_simd_mesh_impl.py:49] HvdSimdMeshImpl init: Shape[row=4, col=4] LayoutRules{('nx_block', 'row'), ('ty', 'row'), ('nx', 'row'), ('ny_block', 'col'), ('tz_lr', 'col'), ('tz', 'col'), ('nx_lr', 'row'), ('ty_lr', 'row'), ('ny', 'col'), ('ny_lr', 'col')}
+Traceback (most recent call last):
+  File "mesh_nbody_benchmark.py", line 222, in <module>
+Traceback (most recent call last):
+  File "mesh_nbody_benchmark.py", line 222, in <module>
+Traceback (most recent call last):
+  File "mesh_nbody_benchmark.py", line 222, in <module>
+Traceback (most recent call last):
+  File "mesh_nbody_benchmark.py", line 222, in <module>
+Traceback (most recent call last):
+  File "mesh_nbody_benchmark.py", line 222, in <module>
+Traceback (most recent call last):
+  File "mesh_nbody_benchmark.py", line 222, in <module>
+Traceback (most recent call last):
+  File "mesh_nbody_benchmark.py", line 222, in <module>
+Traceback (most recent call last):
+  File "mesh_nbody_benchmark.py", line 222, in <module>
+    tf.app.run(main=main)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/tensorflow/python/platform/app.py", line 40, in run
+Traceback (most recent call last):
+  File "mesh_nbody_benchmark.py", line 222, in <module>
+Traceback (most recent call last):
+  File "mesh_nbody_benchmark.py", line 222, in <module>
+    tf.app.run(main=main)
+    tf.app.run(main=main)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/tensorflow/python/platform/app.py", line 40, in run
+    tf.app.run(main=main)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/tensorflow/python/platform/app.py", line 40, in run
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/tensorflow/python/platform/app.py", line 40, in run
+    tf.app.run(main=main)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/tensorflow/python/platform/app.py", line 40, in run
+    tf.app.run(main=main)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/tensorflow/python/platform/app.py", line 40, in run
+    tf.app.run(main=main)
+Traceback (most recent call last):
+  File "mesh_nbody_benchmark.py", line 222, in <module>
+    tf.app.run(main=main)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/tensorflow/python/platform/app.py", line 40, in run
+Traceback (most recent call last):
+  File "mesh_nbody_benchmark.py", line 222, in <module>
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/tensorflow/python/platform/app.py", line 40, in run
+Traceback (most recent call last):
+  File "mesh_nbody_benchmark.py", line 222, in <module>
+    tf.app.run(main=main)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/tensorflow/python/platform/app.py", line 40, in run
+    tf.app.run(main=main)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/tensorflow/python/platform/app.py", line 40, in run
+Traceback (most recent call last):
+  File "mesh_nbody_benchmark.py", line 222, in <module>
+    tf.app.run(main=main)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/tensorflow/python/platform/app.py", line 40, in run
+    tf.app.run(main=main)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/tensorflow/python/platform/app.py", line 40, in run
+    tf.app.run(main=main)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/tensorflow/python/platform/app.py", line 40, in run
+    _run(main=main, argv=argv, flags_parser=_parse_flags_tolerate_undef)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/absl/app.py", line 303, in run
+    _run(main=main, argv=argv, flags_parser=_parse_flags_tolerate_undef)
+    _run(main=main, argv=argv, flags_parser=_parse_flags_tolerate_undef)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/absl/app.py", line 303, in run
+    _run(main=main, argv=argv, flags_parser=_parse_flags_tolerate_undef)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/absl/app.py", line 303, in run
+    _run(main=main, argv=argv, flags_parser=_parse_flags_tolerate_undef)
+    tf.app.run(main=main)
+    _run(main=main, argv=argv, flags_parser=_parse_flags_tolerate_undef)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/absl/app.py", line 303, in run
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/absl/app.py", line 303, in run
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/tensorflow/python/platform/app.py", line 40, in run
+    _run(main=main, argv=argv, flags_parser=_parse_flags_tolerate_undef)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/absl/app.py", line 303, in run
+    _run(main=main, argv=argv, flags_parser=_parse_flags_tolerate_undef)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/absl/app.py", line 303, in run
+    _run(main=main, argv=argv, flags_parser=_parse_flags_tolerate_undef)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/absl/app.py", line 303, in run
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/absl/app.py", line 303, in run
+    _run(main=main, argv=argv, flags_parser=_parse_flags_tolerate_undef)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/absl/app.py", line 303, in run
+    _run(main=main, argv=argv, flags_parser=_parse_flags_tolerate_undef)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/absl/app.py", line 303, in run
+    _run(main=main, argv=argv, flags_parser=_parse_flags_tolerate_undef)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/absl/app.py", line 303, in run
+    _run(main=main, argv=argv, flags_parser=_parse_flags_tolerate_undef)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/absl/app.py", line 303, in run
+    _run(main=main, argv=argv, flags_parser=_parse_flags_tolerate_undef)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/absl/app.py", line 303, in run
+Traceback (most recent call last):
+  File "mesh_nbody_benchmark.py", line 222, in <module>
+Traceback (most recent call last):
+  File "mesh_nbody_benchmark.py", line 222, in <module>
+    tf.app.run(main=main)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/tensorflow/python/platform/app.py", line 40, in run
+    tf.app.run(main=main)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/tensorflow/python/platform/app.py", line 40, in run
+    _run(main=main, argv=argv, flags_parser=_parse_flags_tolerate_undef)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/absl/app.py", line 303, in run
+    _run(main=main, argv=argv, flags_parser=_parse_flags_tolerate_undef)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/absl/app.py", line 303, in run
+    _run_main(main, args)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    _run_main(main, args)
+    _run_main(main, args)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    _run_main(main, args)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    _run_main(main, args)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    _run_main(main, args)
+    _run_main(main, args)
+    _run_main(main, args)
+    _run_main(main, args)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    _run_main(main, args)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    _run_main(main, args)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    _run_main(main, args)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    _run_main(main, args)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    _run_main(main, args)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+    _run_main(main, args)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    _run_main(main, args)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "mesh_nbody_benchmark.py", line 190, in main
+    sys.exit(main(argv))
+  File "mesh_nbody_benchmark.py", line 190, in main
+    sys.exit(main(argv))
+  File "mesh_nbody_benchmark.py", line 190, in main
+    sys.exit(main(argv))
+  File "mesh_nbody_benchmark.py", line 190, in main
+    sys.exit(main(argv))
+  File "mesh_nbody_benchmark.py", line 190, in main
+  File "mesh_nbody_benchmark.py", line 190, in main
+    sys.exit(main(argv))
+  File "mesh_nbody_benchmark.py", line 190, in main
+    sys.exit(main(argv))
+    sys.exit(main(argv))
+    sys.exit(main(argv))
+  File "mesh_nbody_benchmark.py", line 190, in main
+    sys.exit(main(argv))
+  File "mesh_nbody_benchmark.py", line 190, in main
+  File "mesh_nbody_benchmark.py", line 190, in main
+  File "mesh_nbody_benchmark.py", line 190, in main
+    sys.exit(main(argv))
+  File "mesh_nbody_benchmark.py", line 190, in main
+    mesh, bs=FLAGS.box_size, nc=FLAGS.nc, batch_size=FLAGS.batch_size)
+    sys.exit(main(argv))
+    mesh, bs=FLAGS.box_size, nc=FLAGS.nc, batch_size=FLAGS.batch_size)
+    sys.exit(main(argv))
+  File "mesh_nbody_benchmark.py", line 190, in main
+  File "mesh_nbody_benchmark.py", line 190, in main
+    sys.exit(main(argv))
+    sys.exit(main(argv))
+  File "mesh_nbody_benchmark.py", line 190, in main
+  File "mesh_nbody_benchmark.py", line 49, in lpt_prototype
+    mesh, bs=FLAGS.box_size, nc=FLAGS.nc, batch_size=FLAGS.batch_size)
+  File "mesh_nbody_benchmark.py", line 49, in lpt_prototype
+    mesh, bs=FLAGS.box_size, nc=FLAGS.nc, batch_size=FLAGS.batch_size)
+  File "mesh_nbody_benchmark.py", line 49, in lpt_prototype
+    mesh, bs=FLAGS.box_size, nc=FLAGS.nc, batch_size=FLAGS.batch_size)
+    mesh, bs=FLAGS.box_size, nc=FLAGS.nc, batch_size=FLAGS.batch_size)
+  File "mesh_nbody_benchmark.py", line 49, in lpt_prototype
+    mesh, bs=FLAGS.box_size, nc=FLAGS.nc, batch_size=FLAGS.batch_size)
+  File "mesh_nbody_benchmark.py", line 49, in lpt_prototype
+  File "mesh_nbody_benchmark.py", line 49, in lpt_prototype
+  File "mesh_nbody_benchmark.py", line 190, in main
+  File "mesh_nbody_benchmark.py", line 49, in lpt_prototype
+    mesh, bs=FLAGS.box_size, nc=FLAGS.nc, batch_size=FLAGS.batch_size)
+  File "mesh_nbody_benchmark.py", line 49, in lpt_prototype
+    klin = np.loadtxt('../flowpm/data/Planck15_a1p00.txt').T[0]
+    mesh, bs=FLAGS.box_size, nc=FLAGS.nc, batch_size=FLAGS.batch_size)
+  File "mesh_nbody_benchmark.py", line 49, in lpt_prototype
+    mesh, bs=FLAGS.box_size, nc=FLAGS.nc, batch_size=FLAGS.batch_size)
+  File "mesh_nbody_benchmark.py", line 49, in lpt_prototype
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/npyio.py", line 961, in loadtxt
+    mesh, bs=FLAGS.box_size, nc=FLAGS.nc, batch_size=FLAGS.batch_size)
+  File "mesh_nbody_benchmark.py", line 49, in lpt_prototype
+    klin = np.loadtxt('../flowpm/data/Planck15_a1p00.txt').T[0]
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/npyio.py", line 961, in loadtxt
+    mesh, bs=FLAGS.box_size, nc=FLAGS.nc, batch_size=FLAGS.batch_size)
+    klin = np.loadtxt('../flowpm/data/Planck15_a1p00.txt').T[0]
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/npyio.py", line 961, in loadtxt
+    klin = np.loadtxt('../flowpm/data/Planck15_a1p00.txt').T[0]
+    mesh, bs=FLAGS.box_size, nc=FLAGS.nc, batch_size=FLAGS.batch_size)
+  File "mesh_nbody_benchmark.py", line 49, in lpt_prototype
+  File "mesh_nbody_benchmark.py", line 49, in lpt_prototype
+    mesh, bs=FLAGS.box_size, nc=FLAGS.nc, batch_size=FLAGS.batch_size)
+  File "mesh_nbody_benchmark.py", line 49, in lpt_prototype
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/npyio.py", line 961, in loadtxt
+    klin = np.loadtxt('../flowpm/data/Planck15_a1p00.txt').T[0]
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/npyio.py", line 961, in loadtxt
+    klin = np.loadtxt('../flowpm/data/Planck15_a1p00.txt').T[0]
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/npyio.py", line 961, in loadtxt
+    mesh, bs=FLAGS.box_size, nc=FLAGS.nc, batch_size=FLAGS.batch_size)
+  File "mesh_nbody_benchmark.py", line 49, in lpt_prototype
+    klin = np.loadtxt('../flowpm/data/Planck15_a1p00.txt').T[0]
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/npyio.py", line 961, in loadtxt
+    klin = np.loadtxt('../flowpm/data/Planck15_a1p00.txt').T[0]
+    klin = np.loadtxt('../flowpm/data/Planck15_a1p00.txt').T[0]
+    klin = np.loadtxt('../flowpm/data/Planck15_a1p00.txt').T[0]
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/npyio.py", line 961, in loadtxt
+    klin = np.loadtxt('../flowpm/data/Planck15_a1p00.txt').T[0]
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/npyio.py", line 961, in loadtxt
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/npyio.py", line 961, in loadtxt
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/npyio.py", line 961, in loadtxt
+    klin = np.loadtxt('../flowpm/data/Planck15_a1p00.txt').T[0]
+    mesh, bs=FLAGS.box_size, nc=FLAGS.nc, batch_size=FLAGS.batch_size)
+    klin = np.loadtxt('../flowpm/data/Planck15_a1p00.txt').T[0]
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/npyio.py", line 961, in loadtxt
+    klin = np.loadtxt('../flowpm/data/Planck15_a1p00.txt').T[0]
+    klin = np.loadtxt('../flowpm/data/Planck15_a1p00.txt').T[0]
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/npyio.py", line 961, in loadtxt
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/npyio.py", line 961, in loadtxt
+  File "mesh_nbody_benchmark.py", line 49, in lpt_prototype
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/npyio.py", line 961, in loadtxt
+    klin = np.loadtxt('../flowpm/data/Planck15_a1p00.txt').T[0]
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/npyio.py", line 961, in loadtxt
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 195, in open
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 195, in open
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 195, in open
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 195, in open
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 195, in open
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 195, in open
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 195, in open
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 195, in open
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 195, in open
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 195, in open
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 195, in open
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 195, in open
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 195, in open
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 195, in open
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 195, in open
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 195, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 535, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 535, in open
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 535, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 535, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 535, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 535, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 535, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 535, in open
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 535, in open
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 535, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 535, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 535, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 535, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 535, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 535, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/gpfslocalsup/pub/anaconda-py3/2020.02/envs/tensorflow-gpu-2.4.1+nccl-2.8.3-1/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 535, in open
+    raise IOError("%s not found." % path)
+    raise IOError("%s not found." % path)
+    raise IOError("%s not found." % path)
+OSError: ../flowpm/data/Planck15_a1p00.txt not found.
+    raise IOError("%s not found." % path)
+OSError: ../flowpm/data/Planck15_a1p00.txt not found.
+OSError: ../flowpm/data/Planck15_a1p00.txt not found.
+    raise IOError("%s not found." % path)
+    raise IOError("%s not found." % path)
+    raise IOError("%s not found." % path)
+    raise IOError("%s not found." % path)
+OSError: ../flowpm/data/Planck15_a1p00.txt not found.
+OSError: ../flowpm/data/Planck15_a1p00.txt not found.
+OSError: ../flowpm/data/Planck15_a1p00.txt not found.
+    raise IOError("%s not found." % path)
+    raise IOError("%s not found." % path)
+    raise IOError("%s not found." % path)
+    raise IOError("%s not found." % path)
+OSError: ../flowpm/data/Planck15_a1p00.txt not found.
+OSError: ../flowpm/data/Planck15_a1p00.txt not found.
+OSError: ../flowpm/data/Planck15_a1p00.txt not found.
+    raise IOError("%s not found." % path)
+OSError: ../flowpm/data/Planck15_a1p00.txt not found.
+OSError: ../flowpm/data/Planck15_a1p00.txt not found.
+OSError: ../flowpm/data/Planck15_a1p00.txt not found.
+    raise IOError("%s not found." % path)
+OSError: ../flowpm/data/Planck15_a1p00.txt not found.
+    raise IOError("%s not found." % path)
+OSError: ../flowpm/data/Planck15_a1p00.txt not found.
+    raise IOError("%s not found." % path)
+OSError: ../flowpm/data/Planck15_a1p00.txt not found.
+OSError: ../flowpm/data/Planck15_a1p00.txt not found.
+srun: error: r11i1n3: tasks 8-11: Exited with exit code 1
+srun: Terminating job step 1901481.0
+srun: error: r11i1n1: tasks 0-3: Exited with exit code 1
+srun: error: r11i1n4: tasks 12-15: Exited with exit code 1
+srun: error: r11i1n2: tasks 4-7: Exited with exit code 1

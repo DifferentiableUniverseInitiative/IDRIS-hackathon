@@ -1,0 +1,27 @@
+r10i4n4.80491psmi_cuda_initialize: Unable to find active CUDA context
+r10i4n4.80490psmi_cuda_initialize: Unable to find active CUDA context
+r10i4n4.80493psmi_cuda_initialize: Unable to find active CUDA context
+r10i4n4.80492psmi_cuda_initialize: Unable to find active CUDA context
+mesh + rules
+mesh + rules
+mesh + rules
+mesh + rules
+benchmark model
+slice_begins:  [0, 16, 16, 0]
+benchmark model
+benchmark model
+slice_begins:  [0, 0, 16, 0]
+slice_begins:  [0, 0, 0, 0]
+benchmark model
+slice_begins:  [0, 16, 0, 0]
+out
+outfield shape (1, 32, 32, 32)
+out
+outfield shape out
+outfield shape (1, 32, 32, 32)
+(1, 32, 32, 32)
+out
+outfield shape (1, 32, 32, 32)
+
+shape of the cube (1, 32, 32, 32)
+
